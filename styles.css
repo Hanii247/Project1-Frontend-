@@ -1,0 +1,166 @@
+/* CoreTech Innovations — custom styles (in addition to Bootstrap) */
+
+/* Layout helpers */
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(180deg, rgba(16,16,22,.7), rgba(16,16,22,.85)),
+              url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat;
+}
+.sub-hero {
+  min-height: 30vh;
+  background: linear-gradient(180deg, rgba(16,16,22,.75), rgba(16,16,22,.85)),
+              url('https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat;
+}
+
+.hover-raise {
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.hover-raise:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.12);
+}
+
+/* Logo styling */
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;      /* makes it circular */
+  object-fit: cover;       /* ensures the logo fits nicely */
+  border: 2px solid #fff;  /* optional: white border around */
+  box-shadow: 0 0 8px rgba(0,0,0,0.2); /* soft shadow */
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);   /* slight zoom on hover */
+}
+
+/* NAVBAR hover effects */
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd; /* Bootstrap primary blue */
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #0d6efd;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Highlighted services hover effect */
+.hover-raise {
+  transition: transform .3s ease, box-shadow .3s ease;
+  border-radius: .75rem;
+}
+
+.hover-raise:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0.8rem 1.5rem rgba(13, 110, 253, 0.35); /* Blue glow */
+  border: 1px solid rgba(13, 110, 253, 0.4);
+}
+
+/* Smooth icon + title animation inside cards */
+.hover-raise:hover i,
+.hover-raise:hover h5 {
+  color: #0d6efd;
+  transition: color 0.3s ease;
+}
+
+/* Stats */
+.stat-box {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: .75rem;
+  padding: .9rem;
+  text-align: center;
+}
+.stat-box .stat { font-weight: 700; font-size: 1.1rem; display:block; }
+.stat-box .label { color: #6c757d; }
+
+
+/* Service Cards */
+.service-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.08);
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 1rem 2rem rgba(13, 110, 253, 0.25);
+  border: 1px solid rgba(13, 110, 253, 0.2);
+}
+
+.service-card h5 {
+  transition: color 0.3s ease;
+}
+
+.service-card:hover h5 {
+  color: #0d6efd;
+}
+
+/* Icon styling inside cards */
+.icons-box {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgba(13, 110, 253, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: #0d6efd;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover .icon-box {
+  background: #0d6efd;
+  color: #fff;
+  transform: rotate(10deg) scale(1.1);
+}
+
+/* Portfolio overlay effect */
+.card .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(13, 110, 253, 0.6);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+
+/* Team */
+.team-photo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.12);
+}
+
+/* Forms */
+#formStatus.success { color: #198754; }
+#formStatus.error { color: #dc3545; }
+
+/* Footer */
+footer a { text-decoration: none; }
