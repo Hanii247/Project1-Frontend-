@@ -58,9 +58,13 @@ coretech-innovations/
 ## 📸 Screenshots
 
 - 🖥️ Desktop View
+  
 ![Desktop Screenshot](desktopView.png)
+
 - 📱 Mobile View
+
 ![Mobile Screenshot](mobileView.png)
+
 
 ## ✨ Features
 
@@ -84,6 +88,7 @@ coretech-innovations/
 This project is licensed under the MIT License.
 
 © 2025 CoreTech Innovations
+
 
 
 
