@@ -9,18 +9,31 @@ Includes smooth scroll animations, service showcase, portfolio section, and a wo
 coretech-innovations/
 
 │── index.html       # Home page
+
 │── about.html       # About Us page
+
 │── services.html    # Services page
+
 │── portfolio.html   # Portfolio showcase
+
 │── contact.html     # Contact page
+
 │── styles.css       # Custom styles
+
 │── main.js          # JavaScript (form validation + AOS)
+
 │── assets/          # Logo + social icons + images
+
 │    ├── logo.png
+
 │    ├── facebook.png
+
 │    ├── instagram.png
+
 │    ├── twitter.png
+
 │    ├── mobileView.png
+
 │    └── desktopView.png
 
 
@@ -71,4 +84,5 @@ coretech-innovations/
 This project is licensed under the MIT License.
 
 © 2025 CoreTech Innovations
+
 
