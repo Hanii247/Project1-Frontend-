@@ -1,5 +1,5 @@
-## 🌐 CoreTech Innovations — Company Website
-A responsive multi-page company website built with **Bootstrap 5**, **custom CSS**, and **JavaScript**.  
+## 🌐 CoreTech Innovations — Official Website
+A responsive multi-page website built with **Bootstrap 5**, **custom CSS**, and **JavaScript**.  
 Includes smooth scroll animations, service showcase, portfolio section, and a working contact form (demo).
 
 ## 🚀 Live Demo
@@ -84,5 +84,6 @@ coretech-innovations/
 This project is licensed under the MIT License.
 
 © 2025 CoreTech Innovations
+
 
 
