@@ -7,6 +7,7 @@ Includes smooth scroll animations, service showcase, portfolio section, and a wo
 
 ## 📂 Project Structure
 coretech-innovations/
+
 │── index.html       # Home page
 │── about.html       # About Us page
 │── services.html    # Services page
@@ -70,3 +71,4 @@ coretech-innovations/
 This project is licensed under the MIT License.
 
 © 2025 CoreTech Innovations
+
